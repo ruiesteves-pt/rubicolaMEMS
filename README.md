@@ -52,3 +52,21 @@ You can then test the installation by running with no errors or output:
 python -c 'import fenics'
 ```
 FEniCS is installed. For more information check: https://github.com/FEniCS/dolfinx#installation
+
+### 4. Install other required libraries
+This software requires the use of gmsh, pygmsh, h5py and numpy. Install them using:
+```
+sudo apt install python3-gmsh
+pip install gmsh
+pip install pygmsh
+pip install numpy
+pip install h5py
+```
+
+### 5. IF THERE ARE ERRORS
+Sometimes some errors arise when using the WSL instead of standalone Ubuntu. The vast majority can be solved by installing the following libraries:
+```
+sudo apt install mesa-utils libglu1-mesa-dev freeglut3-dev mesa-common-dev
+sudo apt-get install libxcursor1
+sudo apt-get install libxinerama1
+```
