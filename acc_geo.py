@@ -27,7 +27,7 @@ def build(suspension_beam_width,proof_mass_length):
     beam_to_mass = (beam_dist_final+suspension_beam_width+small_beam_length + proof_mass_length) - suspension_beam_length
 
     # Geometry build
-    geom = pg.opencascade.Geometry()
+    geom = pg.occ.Geometry()
 
     # Beam1_1
     p1 = [0,beam_dist_final,beam_lower]
@@ -92,5 +92,5 @@ def build(suspension_beam_width,proof_mass_length):
     #Complete Union
     final = geom.boolean_union([beam1,proof_mass,beam2,beam3,beam4])
 
-    mesh = pg.generate_mesh(geom,gmsh_path="/home/ruiesteves/Documents/Tese/MechanicalModel/gmsh-4.5.2-Linux64/bin/gmsh")   # Be sure to change the gmsh_path to the installed folder
-    meshio.write("accelerometer.xml",mesh)
+    mesh = geom.generate_mesh()   # Be sure to change the gmsh_path to the installed folder
+    meshio.write("accelerometer.xdmf",mesh)

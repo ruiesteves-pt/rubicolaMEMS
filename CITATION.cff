@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: rubicolaMEMS
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Rui
+    family-names: Amendoeira Esteves
+    email: resteves@esat.kuleuven.be
+    affiliation: >-
+      MNS, Department of Electrical Engineering (ESAT),
+      University of Leuven, 3001 Leuven, Belgium
+    orcid: 'https://orcid.org/0000-0003-4094-4607'
+  - given-names: Chen
+    family-names: Wang
+    email: chen.wang@esat.kuleuven.be
+    affiliation: >-
+      MNS, Department of Electrical Engineering (ESAT),
+      University of Leuven, 3001 Leuven, Belgium
+  - given-names: Michael
+    family-names: Kraft
+    email: michael.kraft@kuleuven.be
+    affiliation: >-
+      MNS, Department of Electrical Engineering (ESAT),
+      University of Leuven, 3001 Leuven, Belgium
+    orcid: 'https://orcid.org/0000-0002-7213-1072'
+identifiers:
+  - type: doi
+    value: 10.3390/mi13010001
+repository-code: 'https://github.com/ruiesteves-pt/rubicolaMEMS'
+url: 'https://www.mdpi.com/2072-666X/13/1/1'
