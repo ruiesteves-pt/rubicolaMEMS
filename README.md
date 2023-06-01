@@ -89,12 +89,15 @@ Make the changes to geometry, figure of merit and FEM studies according to your 
 If you use this repository or if this work was useful to you in any way, please consider citing it using the "Cite this repository" tool at the page's the top right or with the following structure:
 
 **MDPI and ACS Style**
+
 Amendoeira Esteves, R.; Wang, C.; Kraft, M. Python-Based Open-Source Electro-Mechanical Co-Optimization System for MEMS Inertial Sensors. Micromachines 2022, 13, 1. https://doi.org/10.3390/mi13010001
 
 **AMA Style**
+
 Amendoeira Esteves R, Wang C, Kraft M. Python-Based Open-Source Electro-Mechanical Co-Optimization System for MEMS Inertial Sensors. Micromachines. 2022; 13(1):1. https://doi.org/10.3390/mi13010001
 
 **Chicago/Turabian Style**
+
 Amendoeira Esteves, Rui, Chen Wang, and Michael Kraft. 2022. "Python-Based Open-Source Electro-Mechanical Co-Optimization System for MEMS Inertial Sensors" Micromachines 13, no. 1: 1. https://doi.org/10.3390/mi13010001 
 
 https://www.mdpi.com/2072-666X/13/1/1
