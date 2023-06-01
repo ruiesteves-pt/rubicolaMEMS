@@ -42,7 +42,7 @@ sudo apt install python3-pip
 ### 3. Install FEniCS
 To install FEniCS, first add their repository and then install the package:
 ```
-sudo add-apt-repository ppa:fenics-package/fenics
+sudo add-apt-repository ppa:fenics-packages/fenics
 sudo apt-get update
 sudo apt-get install fenics
 sudo apt-get dist-upgrade
