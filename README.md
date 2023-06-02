@@ -77,8 +77,8 @@ sudo apt-get install libxinerama1
 ### 6. Git clone the repository
 It is recommended to make a new directory in your Ubuntu virtual system. Then clone the repository:
 ```
-mkdir rubicolaMEMS
-cd rubicolaMEMS
+mkdir rubicola
+cd rubicola
 git clone https://github.com/ruiesteves-pt/rubicolaMEMS
 ```
 
