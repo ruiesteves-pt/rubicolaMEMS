@@ -1,5 +1,8 @@
 # rubicolaMEMS
+<p align="center">
 A full open-source system that integrates design, simulation and optimization of MEMS sensors.
+  <img width=350 length=350 src="https://i.imgur.com/ehGcVeF.png">
+</p>
 
 ## Instalation
 
